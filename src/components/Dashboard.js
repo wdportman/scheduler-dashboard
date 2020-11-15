@@ -61,6 +61,7 @@ class Dashboard extends Component {
           id={id}
           label={label}
           value={value}
+          onSelect={this.selectPanel}
         />)
     });
 
